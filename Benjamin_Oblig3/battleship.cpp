@@ -227,7 +227,7 @@ void play()
         }
         else
         {
-            if (numberOfHits = numberOfShips)
+            if (numberOfHits == numberOfShips)
             {
                 win = true;
             }
@@ -295,12 +295,12 @@ void play2()
         }
         else
         {
-            if (numberOfHits = numberOfShips)
+            if (numberOfHits == numberOfShips)
             {
                 win = true;
                 std::cout << "Player won";
             }
-            else if (numberOfAIHits = numberOfShips)
+            else if (numberOfAIHits == numberOfShips)
             {
                 aiWin = true;
                 std::cout << "AI won";
